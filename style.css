@@ -84,8 +84,36 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%;
 }
+.h6{
+    color: #FFF;
 
+    /* H4 */
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+}
+.h8{
+    color: #202020;
 
+    /* H4 */
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+}
+.h7{
+    color: #C4C4C4;
+
+/* H6 */
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 23.4px */
+}
 
 /* big screen */
 @media (min-width: 1200px) {
@@ -179,6 +207,39 @@ font-style: normal;
 font-weight: 700;
 line-height: 120%; /* 48px */
 }
+.backgrounddiv{
+    background-image: url(img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 487px;
+}
+.backgrounddiv2{
+    background-image: url(img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 487px;
+}
+.ebfjkd{
+    width: 616px;
+}
+.backgrounddiv1{
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+padding: 32px;
+flex-direction: column;
+gap: 4px;
+background: var(--252525, #252525);
+}
+.backgrounddiv4{
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+padding: 32px;
+flex-direction: column;
+gap: 4px;
+background: #EAEAEA;
+}
+
+
 
 
 }
@@ -332,7 +393,67 @@ line-height: 149%; /* 14.9px */
     width: 100% !important;
 }
 
+.h6{
+    color: #FFF;
 
+    /* H4 */
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+}
+.h8{
+    color: var(--252525, #252525);
+
+    /* H4 */
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+}
+.h7{
+    color: #C4C4C4;
+
+    /* H6 */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 23.4px */
+}
+.backgrounddiv{
+    background-image: url(img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 487px;
+}
+.backgrounddiv2{
+    background-image: url(img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 487px;
+}
+.ebfjkd{
+    width: 616px;
+}
+.backgrounddiv1{
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+padding: 32px;
+flex-direction: column;
+gap: 4px;
+background: var(--252525, #252525);
+}
+.backgrounddiv4{
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+padding: 32px;
+flex-direction: column;
+gap: 4px;
+background: #EAEAEA;
+}
 
 
 
